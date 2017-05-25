@@ -1,0 +1,17 @@
+{
+  "name": "dockcontroller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.0.1",
+    "socket.io-client": "^2.0.1",
+    "electron": "1.6.10"
+  }
+}
