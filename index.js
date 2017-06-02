@@ -17,7 +17,7 @@ function theme(name) {
 
 let tray = null;
 app.on('ready', () => {
-  tray = new Tray('icon.png');
+  tray = new Tray(__dirname + '/icon.png');
 
   const contextMenu = new Menu();
 
